@@ -37,7 +37,7 @@ dpois(x, lambda)
 # b
 n = 365
 set.seed(1)
-hist(rpois(n, lambda), main = 'Distribusi Poisson')
+hist(rpois(n, x), main = 'Distribusi Poisson')
 # d
 set.seed(1)
 mean(rpois(n, lambda))
@@ -46,8 +46,6 @@ var(rpois(n, lambda))
 # 4
 x = 2
 v = 10
-# a
-dchisq(x, v)
 # b
 n = 100
 set.seed(1)
@@ -59,8 +57,6 @@ var(rchisq(n, v))
 
 #5
 x = 3
-# a
-dexp(x)
 # b
 set.seed(1)
 hist(rexp(10, x), main = 'Distribusi Eksponensial 10 Data')
