@@ -53,9 +53,10 @@ Histogram:
 ## e
 **Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik.**
 
+![Frame 16](https://user-images.githubusercontent.com/79137636/162617632-116f5d47-77a3-4cb6-8be4-19d608d36ece.png)
+
 Penyelesaian:
 ```
-> # e
 > set.seed(1)
 > mean(rgeom(n, p))
 [1] 4.0752
@@ -67,6 +68,7 @@ Nilai rataannya (μ) sebesar 4.0752 dan variannya (σ²) sebesar 20.57776.
 
 # Nomor 2
 **Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan:**
+
 ```
 > n = 20
 > p = 0.20
@@ -96,6 +98,8 @@ Histogram:
 
 ## c
 **Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Binomial.**
+
+μ = np and σ² = npq dengan q = 1-p.
 
 Penyelesaian:
 ```
@@ -147,6 +151,8 @@ Dari histogram distribusi Poisson dengan λ = 4,5 dan λ = 6, di dapat kesimpula
 
 ## d
 **Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson.**
+
+Mean dan variance dari distribusi Poisson adalah λt.
 
 Penyelesaian:
 ```
@@ -343,6 +349,8 @@ Histogram:
 
 ## c
 **Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.**
+
+Variancenya adalah σ².
 
 Penyelesaian:
 ```
