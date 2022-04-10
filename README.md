@@ -1,9 +1,7 @@
 # P1_Probstat_B_5025201093
 Praktikum 1 Probabilitas dan Statistik 8-10 April 2022
 
-Hafizh Mufid Darussalam
-
-5025201093
+Hafizh Mufid Darussalam - 5025201093
 
 # Nomor 1
 **Seorang penyurvei secara acak memilih orang-orang di jalan sampai dia bertemu dengan
