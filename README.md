@@ -156,7 +156,7 @@ Penyelesaian:
 > var(rpois(n, lambda))
 [1] 4.440042
 ```
-Meannya sebesar 4,479452 dan variancenya sebesar 4,440042.
+Untuk λ = 4,5, meannya sebesar 4,479452 dan variancenya sebesar 4,440042.
 
 # Nomor 4
 **Diketahui nilai x = 2 dan v = 10. Tentukan:**
@@ -199,7 +199,7 @@ Penyelesaian:
 > var(rchisq(n, v))
 [1] 20.70051
 ```
-Meannya sebesar 9,859639 dan variancenya sebesar 20,70051.
+Dari μ = v and σ² = 2v, meannya sebesar 9,859639 dan variancenya sebesar 20,70051.
 # Nomor 5
 **Diketahui bilangan acak (random variable) berdistribusi exponential (λ = 3). Tentukan**
 ```
